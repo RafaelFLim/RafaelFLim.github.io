@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pétalas de Princesa</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+
+  <!--- CABEÇÁRIO ---->
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="/imagens/Pétalas de princesa.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#roupas">Roupas</a>
+        <a href="#review">Reviews</a>
+        <a href="#contact">Contatos</a>
+    </nav>
+
+
+</header>
+
+<!--FIM DO CABEÇÁRIO-->
+
+
+<!--HOME-->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>A loja mais querida do Brasil</h3>
+        <p>Venha adicionar e comprar roupas em nossa loja</p>
+        <a href="#" class="btn">Vamos lá!</a>
+    </div>
+
+</section>
+
+<!--FIM DA HOME-->
+
+
+<!--SOBRE NÓS-->
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>Sobre</span> nós </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="/imagens/Pétalas de princesa.png" alt="about" >
+        </div>
+
+        <div class="content">
+            <h3>Por que você deve comprar na nossa loja?</h3>
+            <p> 
+                Na nossa loja Pétalas de Princesa, estamos comprometidos em oferecer a melhor experiência de compra para você e sua princesa. Nossas roupas infantis de menina são cuidadosamente selecionadas para garantir qualidade, estilo e conforto.
+
+                Nossas peças são feitas com os melhores materiais, garantindo durabilidade e conforto para sua princesa. Além disso, nossas roupas são estilizadas com cores rosas e delicadas, proporcionando um visual único e encantador.
+
+                Com uma ampla variedade de opções, você encontrará tudo o que precisa para deixar sua princesa ainda mais linda. Desde vestidos de festa até roupas casuais para o dia a dia, temos tudo o que você precisa para completar o guarda-roupa da sua princesa.
+
+                Em nossa loja, a experiência de compra é fácil e segura. Nosso site foi projetado para oferecer uma navegação simples e intuitiva, permitindo que você encontre as roupas perfeitas para sua princesa com poucos cliques. Além disso, garantimos um processo de compra seguro e protegido.
+
+                Nosso compromisso com o cliente vai além da compra. Estamos sempre disponíveis para ajudar e garantir a sua satisfação. Nossa equipe está pronta para responder a qualquer dúvida e garantir que sua experiência de compra seja a melhor possível.
+
+                Na loja Pétalas de Princesa, sua princesa é nossa prioridade. Estamos comprometidos em oferecer produtos de qualidade e um atendimento excepcional, garantindo que você volte sempre em busca das melhores roupas infantis de menina.
+
+                Não perca mais tempo, venha conhecer a nossa loja Pétalas de Princesa e garanta roupas lindas e de qualidade para sua princesa.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FINAL SOBRE NÓS-->
+
+
+<!--SESSÃO DE ROUPAS-->
+
+
+
+<section id="roupas">
+
+        <div class="container">
+                <div class="square">
+                        <section id="add-clothes">
+                            <h2>Adicionar Nova Roupa</h2>
+                            <form id="clothes-form">
+                                <label for="name">Nome da Roupa:</label>
+
+                                <input type="text" id="name" name="name" required><br>
+
+                                <label for="size">Tamanho:</label>
+
+                                <input type="text" id="size" name="size" required><br>
+
+                                <label for="description">Descrição:</label>
+
+                                <textarea id="description" name="description" required></textarea><br>
+
+                                <label for="price">Preço:</label>
+
+                                <input type="number" id="price" name="price" required><br>
+
+                                <label for="image">Imagem:</label>
+
+                                <input type="file" id="image" style="display: none;">
+                                <button id="select-image-button">Escolher Imagem</button>
+                                
+                                
+                                <button class="add-button">Adicionar</button>
+                                
+                            </form>
+                        </section>
+                </div>   
+                
+                <div class="square">
+                        <div id="available-clothes-list">
+                            <section id="clothes-list">
+                                    <h2>Roupas Disponíveis</h2>
+                                    <ul id="clothes"></ul>
+                            </section>
+                        </div>
+                        <div id="clear-list-button">
+                            Limpar lista
+                        </div>
+                </div>
+        </div>
+</section>
+
+
+<!--FINAL SESSÃO DE ROUPAS-->
+
+
+
+<!--REVIEW DOS CLIENTES-->
+
+
+<section class="review" id="review">
+
+    <h1 class="heading"> Reviews dos <span>Clientes</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="" alt="" class="quote">
+            <p>Minha experiência na loja Pétalas de Princesa foi maravilhosa! Encontrei exatamente o que estava procurando para a festa da minha filha. As roupas são encantadoras e de ótima qualidade. O atendimento foi atencioso e a entrega foi rápida. Com certeza farei mais compras na loja! </p>
+            <img src="imagens/images.png" class="user" alt="">
+            <h3>Alice Pagliareli</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="" alt="" class="quote">
+            <p>
+                Adorei as roupas que comprei na loja Pétalas de Princesa para a minha sobrinha. A qualidade dos tecidos e o acabamento são excelentes. Além disso, o processo de compra foi fácil e a entrega foi rápida. Recomendo a loja para quem busca roupas infantis de qualidade e com estilo!
+            </p>
+            <img src="/imagens/images (1).png" class="user" alt="">
+            <h3>Helena Almeida</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>
+                Minha experiência na loja Pétalas de Princesa foi incrível! Encontrei roupas lindas e de alta qualidade para a minha filha. O atendimento foi excelente, e a entrega foi rápida. Com certeza vou voltar a comprar na loja!</p>
+            <img src="/imagens/images (2).png" class="user" alt="">
+            <h3>Julia linconl</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--FINAL REVIEW DOS CLIENTES-->
+
+
+
+
+<!--CONTATOS-->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>Entre</span> em contato </h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1629452077891!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="">
+            <h3>Entre em contato!</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="Nome">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="Número">
+            </div>
+            <input type="submit" value="Finalize aqui" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!--FINAL CONTATOS-->
+
+
+<!--FOOTER-->
+<footer class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
+
+    <div class="links">
+        <a href="#home">Home</a>
+        <a href="#roupas">Roupas</a>
+        <a href="#about">Sobre</a>
+        <a href="#review">Reviews</a>
+        <a href="#contact">Contatos</a>
+    </div>
+
+   
+</footer>
+
+<!--FINAL FOOTER-->
+<script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
